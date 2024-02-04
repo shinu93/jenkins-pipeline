@@ -8,6 +8,7 @@ pipeline{
             }
             steps{
                 echo "hello world"
+                sh "cat text_file.txt"
             }
         }
     }
